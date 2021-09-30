@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 
+
 void rev(string s){
     if(s.length()==0){
         return;
