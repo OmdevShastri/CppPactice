@@ -1,4 +1,5 @@
 #include<iostream>
+#include<cmath>
 using namespace std;
 
 int main(){
@@ -8,13 +9,14 @@ int main(){
     cin>>n;
 
     int arr[n];
+
     for (int i = 0; i < n; i++)
     {
         cin>>arr[i];
     }
     for (int i = 0; i < n; i++)
     {
-        mx = max(mx, arr[i]);
+        mx = max(mx, (int)arr[i]);
         cout<<mx<<endl;
     }
     
